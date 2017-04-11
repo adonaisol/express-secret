@@ -43,4 +43,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.listen("8080", ()=>console.log("Listening"));
 module.exports = app;
